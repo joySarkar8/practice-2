@@ -90,7 +90,8 @@ nav .nav ul li a {
     font-weight: 700;
     display: flex;
 }
-.hero-area-child-1 .btn-1 a i{
+
+.hero-area-child-1 .btn-1 a i {
     margin-left: 12px;
     font-size: 18px;
 }
@@ -119,7 +120,8 @@ nav .nav ul li a {
 .images .img-camera-1 .img-camera-2 img {
     width: 100%;
 }
-.company{
+
+.company {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -129,29 +131,31 @@ nav .nav ul li a {
     border-width: 1px;
     border-right: 0;
     border-left: 0;
-    border-image: linear-gradient(to right, transparent, rgb(0, 0, 0), transparent) 1; 
+    border-image: linear-gradient(to right, transparent, rgb(0, 0, 0), transparent) 1;
 }
 
 /*=====================================
           card-area start
 ======================================*/
-.main-cards-area{
+.main-cards-area {
     margin-top: 60px;
 }
-.main-cards-area h1{
+
+.main-cards-area h1 {
     font-size: 28px;
     font-weight: 600;
     text-align: center;
 }
-.main-cards-area{
-    
-}
-.main-cards-area .cards{
+
+.main-cards-area {}
+
+.main-cards-area .cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
 }
-.main-cards-area .cards .card{
+
+.main-cards-area .cards .card {
     width: 100%;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     padding: 20px;
@@ -159,24 +163,66 @@ nav .nav ul li a {
     box-sizing: border-box;
     border-radius: 8px;
 }
-.main-cards-area .cards .card img{
+
+.main-cards-area .cards .card img {
     width: 100%;
 }
-.main-cards-area #see-more{
+
+.main-cards-area #see-more {
     text-align: end;
     font-size: 16px;
     font-weight: 700;
     color: #E02C6D;
     margin-top: 50px;
 }
-.main-cards-area #see-more span{
+
+.main-cards-area #see-more span {
     margin-right: 12px;
 }
 
+/*=====================================
+          feature-area start
+======================================*/
+.feature-cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
 
-    
-    
-    
-    
-    
+.feature-cards .img {
+    width: 30%;
+}
 
+.feature-cards .img img {}
+
+.feature-cards .text {
+    width: 55%;
+}
+
+.feature-cards .text h2 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.feature-cards .text p {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.feature-cards .text button {
+    padding: 12px 32px;
+    display: inline-block;
+    background-color: #E02C6D;
+    border: none;
+    border-radius: 5px;
+}
+.feature-cards .text button a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+}
+.feature-cards .text button a span{
+    margin-right: 12px;
+}
